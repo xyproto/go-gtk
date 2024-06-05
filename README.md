@@ -1,17 +1,21 @@
 # go-gtk
 
-[![Build Status](https://travis-ci.org/mattn/go-gtk.png?branch=master)](https://travis-ci.org/mattn/go-gtk)
+[![GoDoc](https://godoc.org/github.com/mattn/go-gtk?status.svg)](https://godoc.org/github.com/mattn/go-gtk)
+[![License](https://img.shields.io/badge/license-BSD-green.svg?style=flat)](https://raw.githubusercontent.com/mattn/go-gtk/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mattn/go-gtk)](https://goreportcard.com/report/github.com/mattn/go-gtk)
 [![Codecov](https://codecov.io/gh/mattn/go-gtk/branch/master/graph/badge.svg)](https://codecov.io/gh/mattn/go-gtk)
 
-## WHATS
+## Short description
 
-  Go bindings for GTK
+  Go bindings for GTK 2.
+  
+  Note that GTK 2 reached its end of life in 2020: https://blog.gtk.org/2020/12/16/gtk-4-0/
 
-## SCREENSHOT
+## Screenshot
 
 ![Go GTK!](https://github.com/mattn/go-gtk/raw/gh-pages/static/images/screenshot.png "Go GTK!")
 
-## INSTALL
+## Installation instructions
 
   You can experiment with go-gtk
   by running the various example programs:
@@ -38,7 +42,7 @@
 
   * [https://www.gtk.org/docs/installations/windows](https://www.gtk.org/docs/installations/windows)
 
-## EMBEDDING
+## Embedding
 
   It is possible to embed a pixbuf image with:
   ```sh
@@ -50,15 +54,15 @@
 	pb := gdkpixbuf.NewPixbufFromData(logoPNG)
   ```
 
-## LICENSE
+## License
 
   The library is available under the same terms and conditions as the Go, the BSD style license, and the LGPL (GNU Lesser General Public License). The idea is that if you can use Go (and Gtk) in a project, you should also be able to use go-gtk.
 
-## AUTHOR
+## Author
 
   * Yasuhiro Matsumoto
 
-## CONTRIBUTE AUTHORS
+## Contributors
 
   * David Roundy
   * Mark Andrew Gerads
@@ -80,7 +84,7 @@
   * Denis Dyakov
   * Giuseppe Mazzotta
 
-## GOAL
+## Goal
 
   Hopefully support following widgets and methods enough to run general application.
 
